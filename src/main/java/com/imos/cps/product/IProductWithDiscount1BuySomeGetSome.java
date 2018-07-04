@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.imos.sample;
+package com.imos.cps.product;
 
 /**
  *
  * @author pintu
  */
-public interface IProductWithDiscountOnly extends IProduct {
+public interface IProductWithDiscount1BuySomeGetSome extends IProduct {
 
-    double getDiscountValue();
+    int getBaseCount();
+
+    int getDiscountCount();
 }

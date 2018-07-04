@@ -5,9 +5,9 @@
  */
 package com.imos.sample.test;
 
-import com.imos.sample.CalculationService;
-import com.imos.sample.ChaiPointShop;
-import com.imos.sample.IShop;
+import com.imos.cps.service.CalculationService;
+import com.imos.cps.ChaiPointShop;
+import com.imos.cps.IShop;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

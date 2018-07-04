@@ -3,8 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.imos.sample;
+package com.imos.cps;
 
+import com.imos.cps.product.IProduct;
+import com.imos.cps.product.BreverageWithDiscountOnly;
+import com.imos.cps.product.Breverage;
+import com.imos.cps.product.BreverageWithDiscountBuySomeGetSome;
+import com.imos.cps.service.ICalculateService;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;

@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.imos.sample;
+package com.imos.cps.service;
 
 /**
  *
  * @author pintu
  */
-public interface IProduct {
+@FunctionalInterface
+public interface ICompleteCalculation {
 
-    String getName();
+    double calculate();
 
-    double getPrice();
-
-    double getTaxValue();
 }

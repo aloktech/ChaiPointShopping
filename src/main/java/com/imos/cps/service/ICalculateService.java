@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.imos.sample;
+package com.imos.cps.service;
+
+import com.imos.cps.product.IProduct;
 
 /**
  *
  * @author pintu
  */
 @FunctionalInterface
-public interface ICompleteCalculation {
+public interface ICalculateService {
 
-    double calculate();
-
+    double calculate(IProduct product, int count);
 }
